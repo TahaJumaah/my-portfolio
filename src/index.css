@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
+.layout {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5 4fr 0.5fr;
+}
+
+#root {
+  max-width: 95vw;
+  padding: 0px;
+}
+
+body {
+  background-color: rgba(241, 243, 245, 0.856);
+}

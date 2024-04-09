@@ -1,0 +1,54 @@
+.navBar {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  grid-row-start: 1;
+  grid-row-end: 2;
+  max-height: 65px;
+  max-width: 98vw;
+  margin-top: 2%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: -2.5px 5px 10px 5px rgba(124, 124, 124, 0.13);
+}
+
+#logoContainer {
+  display: flex;
+  align-items: center;
+  overflow-y: hidden;
+  height: 100%;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+}
+#logo {
+  display: block;
+  all: inherit;
+  font-size: 100px;
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  transition: font-size 1s;
+}
+#logo:hover {
+  font-size: 50px;
+  cursor: default;
+  transition: all 1s;
+}
+
+.navBar p {
+  font-size: 1.1em;
+  font-family: cursive;
+  font-weight: 500;
+  transition: all ease-in-out 0.5s;
+  padding: 21px;
+}
+
+.navBar p:hover {
+  background-color: white;
+  transition: all ease-in-out 0.5s;
+  color: black;
+  border-radius: 50px;
+  cursor: pointer;
+}
