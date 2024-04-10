@@ -1,26 +1,28 @@
+import { codeSVG } from "../assets/SVGs";
+
 export const dataBase = [
   {
     key: 1,
-    imgSrc: "",
-    title: "Title 1",
-    desc: "Lorem Ipsum Something SOmething",
+    imgSrc: "src/assets/code.svg",
+    title: "React",
+    desc: "Responsive webpages made with love (and React).",
   },
   {
     key: 2,
-    imgSrc: "",
-    title: "Title 2",
-    desc: "Lorem Ipsum Something SOmething",
+    imgSrc: "src/assets/design.svg",
+    title: "Web Design",
+    desc: "Mobile first design",
   },
   {
     key: 3,
-    imgSrc: "",
-    title: "Title 3",
-    desc: "Lorem Ipsum Something SOmething",
+    imgSrc: "src/assets/node.svg",
+    title: "NodeJS",
+    desc: "I build full web apps - not just for show.",
   },
   {
     key: 4,
-    imgSrc: "",
-    title: "Title 4",
-    desc: "Lorem Ipsum Something SOmethingLorem Ipsum Something SOmethingLorem Ipsum Something ",
+    imgSrc: "src/assets/database.svg",
+    title: "Database",
+    desc: "Mostly using MongoDB, following the industry's best practices for security",
   },
 ];

@@ -31,6 +31,19 @@
   height: 150px;
   min-height: 100px;
   min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.svgObject {
+  width: 50%;
+  fill: white;
+}
+svg {
+  fill: white;
 }
 
 .title {
