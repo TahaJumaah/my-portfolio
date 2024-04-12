@@ -7,7 +7,9 @@ export default function NavBar({ changeView }) {
         About Me
       </p>
       <div id={styles.logoContainer}>
-        <p id={styles.logo}>TJ</p>
+        <p onClick={changeView} id={styles.logo}>
+          TJ
+        </p>
       </div>
       <p onClick={changeView} className={styles.navItem}>
         My Work

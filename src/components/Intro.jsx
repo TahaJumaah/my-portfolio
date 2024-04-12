@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import styles from "./Intro.module.css";
+import styles from "./aboutMe.module.css";
 import { useState } from "react";
 export default function Intro() {
   const [jobTitle, setJobTitle] = useState(null);

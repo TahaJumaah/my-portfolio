@@ -7,10 +7,14 @@ function App() {
   const [showAbout, setShowAbout] = useState(true);
 
   function changeView(Event) {
+    console.log(Event);
     if (Event.target.innerText == "My Work") {
       setShowAbout(false);
     }
-    if (Event.target.innerText == "About Me") {
+    if (
+      Event.target.innerText == "About Me" ||
+      Event.target.innerText == "TJ"
+    ) {
       setShowAbout(true);
     }
   }
