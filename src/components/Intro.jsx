@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import styles from "./aboutMe.module.css";
 import { useState } from "react";
+import { HomeIcon } from "../assets/SVGs";
 export default function Intro() {
   const [jobTitle, setJobTitle] = useState(null);
 
@@ -20,9 +21,7 @@ export default function Intro() {
       <h1>Taha Jumaah</h1>
       <h2>Full Stack {jobTitle} Developer</h2>
 
-      <h2>
-        <img src="src\assets\home_icon.svg"></img> Prague
-      </h2>
+      <h2>{HomeIcon} Prague</h2>
     </div>
   );
 }

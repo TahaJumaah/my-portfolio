@@ -23,6 +23,7 @@
   padding: 0px;
   margin: 0px;
   cursor: pointer;
+  user-select: none;
 }
 #logo {
   display: block;
