@@ -15,6 +15,7 @@ export default function Project({ position }) {
           </a>
           <p className={styles.desc}>{item.desc}</p>
           <p className={styles.date}>{item.date}</p>
+          <p className={styles.stack}>{item.techStack}</p>
         </div>
         <div className={styles.img}>
           <a href={item.linkHref} target="_blank">
