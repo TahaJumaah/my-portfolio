@@ -9,7 +9,6 @@ export default function Intro() {
     function interval() {
       setInterval(() => {
         setJobTitle("sameersInterval");
-        console.log("sameersInterval");
         interval();
       }, 3000);
     }

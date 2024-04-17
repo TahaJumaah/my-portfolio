@@ -4,7 +4,18 @@
   max-width: 100vw;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5 4fr 0.5fr;
+  grid-template-rows: 0.5fr auto 0.5fr;
+  height: auto;
+}
+
+@media (width < 800px) {
+  .layout {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr auto 0.5fr;
+    height: auto;
+  }
 }
 
 #root {

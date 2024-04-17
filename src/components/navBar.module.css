@@ -11,7 +11,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  box-shadow: -2.5px 5px 10px 5px rgba(124, 124, 124, 0.13);
+  box-shadow: -2.5px 5px 10px 5px rgba(78, 78, 78, 0.275);
+  user-select: none;
 }
 
 #logoContainer {
@@ -22,7 +23,6 @@
   width: auto;
   padding: 0px;
   margin: 0px;
-  cursor: pointer;
   user-select: none;
 }
 #logo {
@@ -51,5 +51,4 @@
   transition: all ease-in-out 0.5s;
   color: black;
   border-radius: 50px;
-  cursor: pointer;
 }

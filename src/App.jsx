@@ -2,12 +2,12 @@ import { useState } from "react";
 import "./App.css";
 import NavBar from "./components/navBar";
 import AboutMe from "./components/aboutMe";
+import MyWork from "./components/myWork";
 
 function App() {
   const [showAbout, setShowAbout] = useState(true);
 
   function changeView(Event) {
-    console.log(Event);
     if (Event.target.innerText == "My Work") {
       setShowAbout(false);
     }
@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="layout">
       <NavBar changeView={changeView}></NavBar>
-      {showAbout ? <AboutMe /> : <p>My Work</p>}
+      {showAbout ? <AboutMe /> : <MyWork />}
     </div>
   );
 }
