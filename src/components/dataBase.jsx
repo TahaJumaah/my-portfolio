@@ -23,7 +23,7 @@ export const dataBase = [
     key: 4,
     imgSrc: dataBaseSVG,
     title: "Safe Data",
-    desc: "Following industry standards, and best practices when handling data, during all its lifecycle",
+    desc: "Following industry standards, and best practices when handling data.",
   },
 ];
 
