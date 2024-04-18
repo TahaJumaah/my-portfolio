@@ -15,7 +15,7 @@ export default function ContactMe() {
         <div className={styles.contactInfo}>
           <h2>Get in touch</h2>
           <div>
-            <a href="https:linkedIn.com/in/tahajumaah">
+            <a href="https://www.linkedin.com/in/tahajumaah/" target="_blank">
               <FaLinkedin></FaLinkedin>
             </a>
           </div>
