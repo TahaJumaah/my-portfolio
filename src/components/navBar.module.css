@@ -1,5 +1,5 @@
 .navBar {
-  background-color: black;
+  background-color: #114939;
   color: rgb(255, 255, 255);
   grid-row-start: 1;
   grid-row-end: 2;
@@ -13,12 +13,12 @@
   align-items: center;
   box-shadow: -2.5px 5px 10px 5px rgba(78, 78, 78, 0.275);
   user-select: none;
+  overflow: hidden;
 }
 
 #logoContainer {
   display: flex;
   align-items: center;
-  overflow-y: hidden;
   height: 100%;
   width: auto;
   padding: 0px;
@@ -47,8 +47,8 @@
 }
 
 .navBar p:hover {
-  background-color: white;
+  background-color: #eff5f0;
   transition: all ease-in-out 0.5s;
-  color: black;
+  color: #114939;
   border-radius: 50px;
 }

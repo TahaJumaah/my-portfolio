@@ -1,5 +1,6 @@
 import styles from "./aboutMe.module.css";
 import Card from "./Card";
+import ContactMe from "./contactMe";
 import { dataBase } from "./dataBase";
 import Intro from "./Intro";
 export default function AboutMe() {
