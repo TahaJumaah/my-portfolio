@@ -6,11 +6,12 @@
   flex-direction: column;
   width: 25%;
   text-wrap: wrap;
-  border: 1px solid rgba(120, 120, 120, 0.392);
+  border: 1px solid rgba(120, 120, 120, 0.364);
   height: 300px;
   flex: 0 1 25%;
   border-radius: 15px;
   box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.26);
+  margin: 1em;
 }
 
 .cardContainer:hover > .desc {
