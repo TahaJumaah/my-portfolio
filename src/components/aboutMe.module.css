@@ -43,11 +43,12 @@ h2 > svg {
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  min-width: 100vw;
+  min-width: 95vw;
   margin-bottom: 10%;
-}
-.cards div {
+  flex-wrap: wrap;
 }
 
 @media (width <= 800px) {
