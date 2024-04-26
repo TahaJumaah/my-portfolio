@@ -40,7 +40,8 @@
 
 .navBar p {
   font-size: 1.1em;
-  font-family: cursive;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   transition: all ease-in-out 0.5s;
   padding: 21px;
