@@ -40,12 +40,12 @@ img {
 }
 
 @media (width < 800px) {
+  .img {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
   .projectContainer {
     flex-direction: column;
   }
-}
-
-.img {
-  max-width: 100%;
-  overflow: hidden;
 }
