@@ -30,21 +30,23 @@ body {
   color: white;
   border-radius: 15px;
   min-height: 3em;
-  min-width: auto;
-  padding: 5%;
+  max-width: 70%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1em;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border: 0px solid white;
   flex: 0 0 100%;
+  cursor: pointer;
 }
 
 .btn:hover {
-  /* box-shadow: 0px 0px 5px 1px #114939; */
-  background-color: #114939df;
-}
-
-.btn:active {
-  transform: scale(1.1);
-  transition: all 0.15s;
+  background-color: #0b4131df;
+  transform: scale(1.05);
 }
 
 svg:active {

@@ -30,11 +30,12 @@ export default function ContactMe() {
             </a>
           </div>
           <a
+            className="btn"
             style={{ width: "100%", height: "100%", marginTop: "20px" }}
             target="_blank"
             href="/assets/Taha_Jumaah_resume.pdf"
           >
-            <button className="btn"> View my Resume</button>
+            View Resume
           </a>
         </div>
       </div>
