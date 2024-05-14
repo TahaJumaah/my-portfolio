@@ -38,6 +38,16 @@ export const Projects = [
     linkHref: "https://cardat.vercel.app/",
   },
   {
+    key: 111,
+    projectName: "Etch-A-Sketch",
+    desc: "A canvas playground where you can draw pixel art, made with Vanilla JavaScript.",
+    date: "Nov-2022",
+    projectImg: "assets/project_sketch.jpg",
+    linkHref: "https://tahajumaah.github.io/Etch-A-Sketch-V.1.69/",
+    techStack: "JavaScript | HTML | CSS",
+  },
+
+  {
     key: 1,
     projectName: "Dog Grooming Business Page",
     desc: "A website showcasing the grooming salon, services, prices, details, and contact information; in the city of Klinec, made entirely with NextJS.",
@@ -62,15 +72,6 @@ export const Projects = [
     date: "Nov-2022",
     projectImg: "assets/project_library.jpg",
     linkHref: "https://tahajumaah.github.io/Book-Library/",
-    techStack: "JavaScript | HTML | CSS",
-  },
-  {
-    key: 4,
-    projectName: "Etch-A-Sketch",
-    desc: "A canvas playground where you can draw pixel art, made with Vanilla JavaScript.",
-    date: "Nov-2022",
-    projectImg: "assets/project_sketch.jpg",
-    linkHref: "https://tahajumaah.github.io/Etch-A-Sketch-V.1.69/",
     techStack: "JavaScript | HTML | CSS",
   },
 ];

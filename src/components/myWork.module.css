@@ -49,3 +49,15 @@ img {
     flex-direction: column;
   }
 }
+
+@media (width > 800px) {
+  .mainContainer {
+    justify-content: center;
+    align-items: center;
+  }
+  .projectContainer {
+    flex-direction: column;
+    min-width: 80%;
+    max-width: 80%;
+  }
+}
