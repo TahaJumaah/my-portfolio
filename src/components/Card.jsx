@@ -1,4 +1,5 @@
 import styles from "./Card.module.css";
+import { DiDocker } from "react-icons/di";
 import { codeSVG } from "../assets/SVGs";
 export default function Card({ imgSrc, title, desc }) {
   return (

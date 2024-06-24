@@ -1,5 +1,11 @@
-import { codeSVG, designSVG, nodeSVG, dataBaseSVG } from "../assets/SVGs";
-
+import {
+  codeSVG,
+  designSVG,
+  nodeSVG,
+  dataBaseSVG,
+  docker,
+} from "../assets/SVGs";
+import { DiDocker } from "react-icons/di";
 export const dataBase = [
   {
     key: 1,
@@ -18,6 +24,12 @@ export const dataBase = [
     imgSrc: nodeSVG,
     title: "NodeJS",
     desc: "Not just for show! Full fledged web apps built with Node",
+  },
+  {
+    key: 5,
+    imgSrc: docker,
+    title: "Containerized Applications",
+    desc: "Good knowledge of Docker, containerized applications and networking with multiple containers to allow for individual scalability using Docker Compose.",
   },
   {
     key: 4,
