@@ -40,15 +40,15 @@ export const dataBase = [
 ];
 
 export const Projects = [
-  {
-    key: 11,
-    projectName: "Cardaty",
-    desc: "A Web app currently used by 5 clients; to manage their inventory of gift cards, financial returns of those cards, as well as the availability of cards that had been sold, but not collected yet. Seperate back-end server hosted on Railway, using NodeJS(Express).",
-    date: "March-2024",
-    projectImg: "assets/project_cardaty.jpg",
-    techStack: "NextJS | NodeJS | ChakraUI | Luxon | React | JavaScript",
-    linkHref: "https://cardat.vercel.app/",
-  },
+  // {
+  //   key: 11,
+  //   projectName: "Cardaty",
+  //   desc: "A Web app currently used by 5 clients; to manage their inventory of gift cards, financial returns of those cards, as well as the availability of cards that had been sold, but not collected yet. Seperate back-end server hosted on Railway, using NodeJS(Express).",
+  //   date: "March-2024",
+  //   projectImg: "assets/project_cardaty.jpg",
+  //   techStack: "NextJS | NodeJS | ChakraUI | Luxon | React | JavaScript",
+  //   linkHref: "#",
+  // },
   {
     key: 111,
     projectName: "Etch-A-Sketch",
