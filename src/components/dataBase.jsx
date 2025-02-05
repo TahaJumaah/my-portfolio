@@ -75,7 +75,7 @@ export const Projects = [
     date: "May-2023",
     projectImg: "assets/project_god.jpg",
     techStack: "React | JavaScript | CSS",
-    linkHref: "https://tahajumaah.github.io/God-Memory-Game/",
+    linkHref: "https://god-memory-game.pages.dev/",
   },
   {
     key: 3,
