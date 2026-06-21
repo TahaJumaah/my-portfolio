@@ -41,7 +41,7 @@ export const dataBase = [
 
 export const Projects = [
   {
-    key: 11,
+    key: 1,
     projectName: 'Hagzee | Appointment App',
     desc: 'Hagzee is my latest fullstack web application, built with React/TypeScript, deployed to a vps with Docker. Hagzee is an appointment platform built to streamline the appointment process for anyone that needs to manage their appointments efficiently and online with a dedicated database.',
     projectImg: 'assets/project_hagzee.jpg',
@@ -49,7 +49,7 @@ export const Projects = [
     techStack: 'NextJS | PostgreSQL | Docker | TypeScript',
   },
   {
-    key: 111,
+    key: 3,
     projectName: 'Etch-A-Sketch',
     desc: 'A canvas playground where you can draw pixel art, made with Vanilla JavaScript.',
     date: 'Nov-2022',
@@ -59,7 +59,7 @@ export const Projects = [
   },
 
   {
-    key: 1,
+    key: 3,
     projectName: 'Dog Grooming Business Page',
     desc: 'A website showcasing the grooming salon, services, prices, details, and contact information; in the city of Klinec, made entirely with NextJS.',
     date: 'October-2023',
@@ -74,7 +74,7 @@ export const Projects = [
     date: 'May-2023',
     projectImg: 'assets/project_god.jpg',
     techStack: 'React | JavaScript | CSS',
-    linkHref: 'https://god-memory-game.pages.dev/',
+    linkHref: 'https://gods.tahajumaah.com',
   },
   {
     key: 3,
