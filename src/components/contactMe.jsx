@@ -1,7 +1,5 @@
-import { FaGit, FaGithub, FaLinkedin, FaSquareEnvelope } from "react-icons/fa6";
-import styles from "./aboutMe.module.css";
-import Modal from "./Modal";
-import { useState } from "react";
+import { FaGithub, FaLinkedin, FaSquareEnvelope } from 'react-icons/fa6';
+import styles from './aboutMe.module.css';
 export default function ContactMe() {
   return (
     <div className={styles.contactMeContainer}>
@@ -29,14 +27,18 @@ export default function ContactMe() {
               <FaSquareEnvelope></FaSquareEnvelope>
             </a>
           </div>
-          <a
-            className="btn"
-            style={{ width: "100%", height: "100%", marginTop: "20px" }}
-            target="_blank"
-            href="/assets/Taha_Jumaah_resume.pdf"
-          >
-            View Resume
-          </a>
+          <div className={styles.contactLinks}>
+            <a
+              className="btn"
+              target="_blank"
+              href="/assets/Taha_Jumaah_resume.pdf"
+            >
+              View Resume
+            </a>
+            <a className="btn" href="https://blog.tahajumaah.com">
+              Check out my blog
+            </a>
+          </div>
         </div>
       </div>
     </div>

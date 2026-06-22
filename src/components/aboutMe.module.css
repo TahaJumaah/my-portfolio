@@ -22,7 +22,7 @@
   letter-spacing: 0.3em;
   text-shadow: -1px 1px 5px rgba(104, 95, 101, 0.651);
   text-align: center;
-  font-family: "Parisienne", cursive;
+  font-family: 'Parisienne', cursive;
 }
 
 .intro > h2 {
@@ -80,6 +80,19 @@ h2 > svg {
   flex-direction: row;
   align-items: center;
   padding: 1.2em;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+.contactLinks a {
+  width: 50%;
+  min-width: max-content;
 }
 
 .contactInfo {
